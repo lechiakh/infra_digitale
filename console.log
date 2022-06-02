@@ -1,0 +1,11 @@
+
+Envoi d'une requˆte 'ping' sur www.google.com [142.250.201.68] avec 32 octets de donn‚esÿ:
+R‚ponse de 142.250.201.68ÿ: octets=32 temps=40 ms TTL=117
+R‚ponse de 142.250.201.68ÿ: octets=32 temps=41 ms TTL=117
+R‚ponse de 142.250.201.68ÿ: octets=32 temps=44 ms TTL=117
+R‚ponse de 142.250.201.68ÿ: octets=32 temps=45 ms TTL=117
+
+Statistiques Ping pour 142.250.201.68:
+    Paquetsÿ: envoy‚s = 4, re‡us = 4, perdus = 0 (perte 0%),
+Dur‚e approximative des boucles en millisecondes :
+    Minimum = 40ms, Maximum = 45ms, Moyenne = 42ms

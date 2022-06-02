@@ -1,0 +1,31 @@
+---
+cities:
+  - Bratislava
+  - Kosice
+  - Trnava
+  - Moldava
+  - Trencin
+companies:
+  - Eset
+  - Slovnaft
+  - Duslo Sala
+  - Matador Puchov
+
+  #conf global de mon app
+app: toto
+version: xx.xxx
+#frequence d'execution
+scheduler: /5 * * * *
+#conf de mon environnement d'execution
+os:
+  image: fedora
+  version: 35
+  lang: EN
+# commande configuration de l'application
+command:
+ # - ls -l
+ # - docker ps -a -q
+ # - docker ps
+ # - pip3 install -r requirements.txt
+ - docker run --name=cloudera --hostname=quickstart.cloudera --cpus=4 -m=8g --privileged=true -t -i -v `pwd`:/src --publish-all=true -p 8888:8888 -p 7180:7180 cloudera/quickstart /usr/bin/docker-quickstart
+
